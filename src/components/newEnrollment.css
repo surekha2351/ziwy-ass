@@ -1,0 +1,113 @@
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.enroll-form {
+  display: flex;
+  justify-content: space-between;
+}
+.border-form {
+  border: 1px solid black;
+  margin: 30px;
+  box-shadow: 0px 2px 2px 0px rgba(128, 128, 128, 0.661);
+}
+.required {
+  padding-right: 20px;
+}
+.plus-symbol {
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.dual-modify {
+  margin-left: auto;
+  color: hsla(240, 100%, 50%, 0.628);
+  padding-right: 50px;
+}
+.section {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.enrollButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.verify {
+  color: white;
+  background-color: rgb(37, 153, 212);
+  border: none;
+  width: 15vw;
+  height: 30px;
+  border-radius: 8px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.cancel {
+  color: black;
+  cursor: pointer;
+  border-color: rgba(130, 128, 128, 0.803);
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.head {
+  padding-left: 10%;
+  font-weight: bold;
+}
+.heade {
+  padding-left: 20px;
+}
+.start {
+  color: red;
+  padding-right: 10px;
+}
+.input-data {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+.names {
+  display: flex;
+}
+.inputdata {
+  padding-right: 3px;
+  padding-left: 2px;
+  text-align: left;
+}
+/*completed*/
+.form-head-cmplt{
+    color: slateblue;
+}
+.completed{
+    padding: 10px;
+    
+}
+.completed-forms{
+    border: 2px solid slateblue;
+    width: max-content;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}

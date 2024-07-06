@@ -1,0 +1,98 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 52, 52);
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .enrollment-buttons {
+    margin-right: auto;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 15px;
+  }
+  
+  .account-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .account-dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+    
+  }
+  .nav-links {
+    display: flex;
+    text-decoration: none !important;
+    color: #333;
+     list-style: none;
+  }
+  
+  .nav-links .link {
+    margin-right: 20px;
+    text-decoration: none !important;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.723);
+     list-style: none;
+     max-width: auto;
+     border: 1px solid rgba(255, 255, 255, 0.48);
+     padding-right: 18px;
+     padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .nav-links .link:last-child {
+    margin-right: 0;
+  }
+  .link:hover{
+background-color: rgb(84, 82, 82);
+  }
+  .logo{
+color: white;
+height:10vh;
+padding-left: 20px;
+
+  }
+  .welcome{
+    color: white;
+    padding: 10px;
+  }
